@@ -1,0 +1,33 @@
+.page {
+	box-sizing: border-box;
+	font-family: "Caveat", cursive;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+}
+.page__title {
+	margin-top: 50px;
+	margin-bottom: 144px;
+	line-height: 50px;
+	font-size: 88px;
+	font-weight: bold;
+	align-self: center;
+}
+.grid {
+	align-self: center;
+	width: 600px;
+	height: 600px;
+	display: grid;
+	grid-template: repeat(3, 200px) / repeat(3, 200px);
+	grid-gap: 5px;
+	background: black;
+}
+.grid__cell {
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 148px;
+	color: #525252;
+}
